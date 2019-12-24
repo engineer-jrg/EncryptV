@@ -1,4 +1,4 @@
-## 0.1.1 (2019-12-23)
+## 0.1.1 (2019-12-24)
 
 - Se agrego estructura con metodos para acceder a los ienbros de la clase
 - Se agreo historico de cambios
