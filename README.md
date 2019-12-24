@@ -47,7 +47,7 @@ p "Mensaje desencriptado: #{msg_decrypt}"
 
 ## Historial
 
-Ver el historial de [cambios](https://github.com/engineer-jrg/EncryptVigen/CHANGELOG.md)
+Ver el historial de [cambios](https://github.com/engineer-jrg/EncryptVigen/blob/master/CHANGELOG.md)
 
 ## Contribuyendo
 
