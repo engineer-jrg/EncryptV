@@ -1,14 +1,11 @@
-# Archivo encrypt_v/lib/encryptv.rb
+# Archivo EncryptVigen/lib/encryptvigen/encryptv.rb
 class EncryptV
-    # Variables privadas de la clase
-    # @available_chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ".split("")
-    
     # Acceso publico
 
     # Metodos publicos
     def encrypt(msg, key)
         # Metodo para encriptar un mensaje
-        self.algorithm_encrypt_v(msg,key)
+        algorithm_encrypt_v(msg,key)
     end
 
     def decrypt(encrypted_msg, key)
@@ -22,7 +19,7 @@ class EncryptV
         # Metodos privados
 
         def index(ch)
-            # Devuelve la ppsicion del caracter en el hash
+            # Devuelve la posicion del caracter en el hash
             available_chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 ".split("")
             available_chars.each_with_index { |c,i|
                 if c.eql? ch
