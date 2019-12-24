@@ -4,9 +4,7 @@
 
 - Usa un codigo basado en el algoritmo vigenere
 - Trabaja con entradas de tipo string: texto, archivos, campos de base de datos, entre otros
-- Devuelve un string con los datos codificados con la clave suministrada
-- Requires you to only manage a single encryption key (with the option to have more)
-- Makes migrating existing data and key rotation easy
+- Devuelve un string con los datos codificados mediante la clave suministrada
 
 Esta libreria esta basada en el código de [Easy Encryption](https://github.com/philipperemy/easy-encryption) para C++
 
